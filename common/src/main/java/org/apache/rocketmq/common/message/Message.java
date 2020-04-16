@@ -27,6 +27,10 @@ public class Message implements Serializable {
 
     private String topic;
     private int flag;
+    // 扩展属性
+    // 1.tag
+    // 2.keys
+    // 3.
     private Map<String, String> properties;
     private byte[] body;
     private String transactionId;
